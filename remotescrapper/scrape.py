@@ -37,4 +37,3 @@ if __name__ == '__main__':
     job_data = get_job_postings()[1:]
     print(job_data)
     output_jobs_to_xls(job_data)
-
