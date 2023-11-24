@@ -30,6 +30,7 @@ jobs:
           
       - name: Install Flake8
         run: |
+          cd remotescrapper/scrape.py
           pip install flake8
      
       - name: Linting
