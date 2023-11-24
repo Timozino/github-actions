@@ -18,8 +18,7 @@ jobs:
         with:
           python-version: 3.8
           
-      - name: Change to Script Directory
-        run: cd github-actions/remotescrapper
+      
         
       - name: Install Dependencies
         run: |
