@@ -38,8 +38,8 @@ jobs:
      
       - name: Linting
         run: |
-          flake8 scrape.py
+          flake8 remotescrapper/scrape.py
 
       - name: Unit Testing
         run: |
-          pytest tests/
+          pytest remotescrapper/tests/
