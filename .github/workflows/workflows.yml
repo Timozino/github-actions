@@ -42,4 +42,4 @@ jobs:
 
       - name: Unit Testing
         run: |
-          pytest remotescrapper/tests/
+          pytest remotescrapper/
