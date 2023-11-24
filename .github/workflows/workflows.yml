@@ -17,7 +17,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-
+          
+      - name: Change to Script Directory
+        run: cd github-actions/remotescrapper
+        
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
@@ -30,7 +33,7 @@ jobs:
           
       - name: Install Flake8
         run: |
-          cd remotescrapper/scrape.py
+          
           pip install flake8
      
       - name: Linting
